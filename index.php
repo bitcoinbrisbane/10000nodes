@@ -38,8 +38,10 @@
         $bitcoin = new Bitcoin('bitcoinbrisbane','441f5cc0839c6aa669506c734b8d6cadf10db229','localhost','8332');
 
         $result = $bitcoin->getinfo();
+
         $current_block = get_data('https://blockchain.info/q/getblockcount');
         $node_blocks = $result['blocks']; #$bitcoin->getblockcount();
+        $error = $result['error'];
     ?>
     <!-- HEADER SECTION -->
     <div id="header-section" >
@@ -74,6 +76,7 @@
                 </div>
                 <p>
                     <?php
+                        echo $error['message'];
                         if ($current_block != $node_blocks)
                         {
                             echo "Block chain syncing... ";
