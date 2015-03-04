@@ -118,7 +118,7 @@ todo:  add curl instructions. PHP requires curl to call the node.
 
 ###Deploy the wallet website
 ```
-cd ~ && sudo rm -rf /var/www/html && sudo git clone -b release https://github.com/bitcoinbrisbane/bitcoin/website /var/www/html
+cd ~ && sudo rm -rf /var/www/html && sudo git clone -b release https://github.com/bitcoinbrisbane/10000nodes /var/www/html
 ```
 
 **Refrences**
