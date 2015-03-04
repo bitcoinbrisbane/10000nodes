@@ -1,0 +1,21 @@
+Flashing to Ubuntu
+
+You will need to download BBB-eMMC-flasher-ubuntu-14.04-console-armhf-2014-07-06-2gb.img.xz
+
+Use pie baker http://www.tweaking4all.com/hardware/raspberry-pi/macosx-apple-pi-baker/ to image the SD card.  You can tip the author at 1Fz9fgpj2VcRodG5A5jJcQubiZLxtfjNRx
+
+From http://elinux.org/Beagleboard:Ubuntu_On_BeagleBone_Black
+This section assumes you have completed the Main Process section at the top of this page. This section shows you how to flash Ubuntu onto the eMMC of your BeagleBone Black.
+
+After you have put the BeageBone Black Ubuntu Flasher image on a micro SD card, insert it into the powered-off BBB.
+Also make sure you have a keyboard, mouse, display, and Ethernet connected
+While holding down the 'boot' button, apply power to the board. Continue to hold the 'boot' button until the USER LEDs begin to flash
+You should use a 5V external power source, USB power may not work
+After about a minute your screen should show the login prompt.
+Leave the board be for about 10 minutes; the image is being flashed to the eMMC
+After about 10 minutes have passed the 4 LEDs should be solid and not flickering. Remove the power, remove the mirco SD, and then re-apply power to the board
+It will take a minute or two for the board to boot to the log-in screen
+User is: ubuntu
+Password is: temppwd
+Note: echo is turned off for typing in password
+You should now be in the command terminal for Ubuntu and your BeagleBone Black will boot here from now on.

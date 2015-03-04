@@ -1,0 +1,20 @@
+<svg width="562" height="318">
+                <line x1="50" y1="50" x2="200" y2="100" style="stroke:rgb(0,0,0);stroke-width:10" />
+                <line x1="50" y1="200" x2="200" y2="100" style="stroke:rgb(0,0,0);stroke-width:10" />
+                <line x1="200" y1="280" x2="200" y2="100" style="stroke:rgb(0,0,0);stroke-width:10" />
+                <line x1="380" y1="100" x2="200" y2="100" style="stroke:rgb(0,0,0);stroke-width:10" />
+                <line x1="380" y1="100" x2="530" y2="50" style="stroke:rgb(0,0,0);stroke-width:10" />
+                <line x1="380" y1="100" x2="530" y2="200" style="stroke:rgb(0,0,0);stroke-width:10" />
+                <line x1="380" y1="100" x2="380" y2="280" style="stroke:rgb(0,0,0);stroke-width:10" />
+                <circle cx="50" cy="50" r="32" stroke="black" stroke-width="1" fill="black" />
+                <circle cx="50" cy="50" r="26" stroke="black" stroke-width="1" fill="white" />
+                <circle cx="50" cy="200" r="32" stroke="black" stroke-width="1" fill="black" />
+                <circle cx="200" cy="100" r="32" stroke="black" stroke-width="1" fill="black" />
+                <circle cx="200" cy="280" r="32" stroke="black" stroke-width="1" fill="black" />
+                <circle cx="380" cy="100" r="32" stroke="black" stroke-width="1" fill="black" />
+                <circle cx="380" cy="280" r="32" stroke="black" stroke-width="1" fill="black" />
+                <circle cx="530" cy="50" r="32" stroke="black" stroke-width="1" fill="black" />
+                <circle cx="530" cy="200" r="32" stroke="black" stroke-width="1" fill="black" />
+                <circle cx="530" cy="200" r="26" stroke="black" stroke-width="1" fill="white" />
+                   Sorry, your browser does not support inline SVG.
+                </svg>
