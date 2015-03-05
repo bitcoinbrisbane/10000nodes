@@ -131,7 +131,8 @@ p {
 }
 
 #pricing-section .plan-main {
-    background: #31B2D3;
+    /* background: #31B2D3; */
+    background: #3399ff;
     list-style: none;
     margin: 0 0 20px;
     text-align: center;
