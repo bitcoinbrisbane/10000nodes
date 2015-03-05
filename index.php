@@ -160,14 +160,14 @@
                     <div class="col-md-4 col-sm-4">
                         <ul class="plan-main">
                             <li class="plan-name">Starter</li>
-                            <li class="plan-price">$ 100</li>
+                            <li class="plan-price">$100</li>
                             <li>64GB Storage</li>
                             <li class="plan-action"><a href="#" class="btn btn-primary btn-lg">Buy!</a></li>
                         </ul>
                     </div>
                     <div class="col-md-4 col-sm-4" >
                         <ul class="plan-main featured active">
-                            <li class="plan-name">Enthusisast</li>
+                            <li class="plan-name">Enthusiast</li>
                             <li class="plan-price">$140</li>
                             <li>128GB Storage</li>
                             <li class="plan-action"><a href="#" class="btn btn-primary btn-lg">Buy!</a></li>
