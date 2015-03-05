@@ -260,14 +260,14 @@ section {
     }
 
 #story-freext > div:nth-of-type(1) {
-    background: url(../img/theblockchain.PNG) 50% 0 no-repeat fixed;
+    background: url(../img/theblockchain2.PNG) 50% 0 no-repeat fixed;
     height: 300px;
     position: absolute;
     width: 100%;
 }
 
 #story-two > div:nth-of-type(2) {
-    background: url(../img/theblockchain.PNG) 50% 0 no-repeat fixed;
+    background: url(../img/theblockchain2.PNG) 50% 0 no-repeat fixed;
     height: 300px;
     position: absolute;
     width: 100%;
