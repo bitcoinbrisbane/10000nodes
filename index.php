@@ -35,6 +35,8 @@
                 return $data;
             }
             require_once('easybitcoin.php');
+
+            //$_GET["status"]
             $bitcoin = new Bitcoin('bitcoinbrisbane','441f5cc0839c6aa669506c734b8d6cadf10db229','localhost','8332');
 
             $result = $bitcoin->getinfo();
@@ -98,7 +100,7 @@
         <section id="story-freext">
             <article>
                <h2><i class="glyphicon glyphicon-signal"></i> Problem</h2>
-               <span>
+               <span style="background-color : rgb(0,0,0)">
                     From March 2014 to March 2015 there has been a decline in full nodes from 10,000 to less than 7,000. Full bitcoin nodes are critical to security and success of bitcoin.  The more full copies of the block chain there are in existance, the harder the network is to shut down, and the more reliable bitcoin becomes.
                 </span>
             </article>
