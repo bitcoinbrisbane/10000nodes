@@ -250,12 +250,12 @@ section {
 }
 
     section:nth-of-type(1) {
-        background: #323232;
+        background: #282828;
         height: 300px;
     }
 
     section:nth-of-type(2) {
-        background: #323232;
+        background: #282828;
         height: 300px;
     }
 
