@@ -78,19 +78,22 @@
                     </div>
                     <p>
                         <?php
-                            echo $error['message'];
-                            if ($current_block != $node_blocks)
+                            if ($_GET['showstatus'] == '1')
                             {
-                                echo "Block chain syncing... ";
-                            }
-                            else
-                            {
-                                echo "Block chain synced, ";
-                            }
+                                echo $error['message'];
+                                if ($current_block != $node_blocks)
+                                {
+                                    echo "Block chain syncing... ";
+                                }
+                                else
+                                {
+                                    echo "Block chain synced, ";
+                                }
 
-                            echo "block height $node_blocks / $current_block, ";
-                            echo "current difficulty " .$result['difficulty'] .", ";
-                            echo $result['connections'] ." connections to the network.";
+                                echo "block height $node_blocks / $current_block, ";
+                                #echo "current difficulty " .$result['difficulty'] .", ";
+                                echo $result['connections'] ." connections to the network.";
+                            }
                         ?>
                     </p>
                 </div>
