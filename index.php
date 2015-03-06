@@ -138,12 +138,13 @@
         <section id="story-two">
             <article>
                 <span>
-                <h3>Goal</h3>
-                <span>We aim to reverse that trend by providing a simple and cost effective solution.</span>
-                </br>
+                <h2><i class="glyphicon fa-flask"></i> Goals</h2>
                 <ol>
-                    <li>To supply a low cost and cheap to run hardware solution that will encourage users to always participate as a full bitcoin node.</li>
+                    <li>Increase the amount of full nodes on the network.</li>
+                    <li>To supply a low cost hardware solution that will encourage users to always participate as a full bitcoin node.</li>
                     <li>To provide a simple and safe bitcoin wallet that mitigates risks associated with running a desktop wallet.</li>
+                    <li>Contribute to the growth of the bitcoin ecosystem.</li>
+                    <li>Be open and transparent.</li>
                 </ol>
                 </br>
                 <h3>Partners and supporters</h3>
@@ -152,6 +153,11 @@
             <div class="parallax" data-velocity="-.1"></div>
             <div class="parallax" data-velocity="-.5" data-fit="125"></div>
         </section>
+        <div class="container">
+            <h2>Solution</h2>
+            <img src="/assets/img/blockchainbox1small.jpg" alt="Prototype box"/>
+        </div>
+             
         <!--END PARALLAX SECTION TWO -->
         <!--PRICE SECTION -->
         <div class="container" id="pricing-section" >         
