@@ -11,6 +11,7 @@
         <link href="assets/css/bootstrap.css" rel="stylesheet" />
         <!--FONTAWESOME MAIN STYLE -->
         <link href="assets/css/font-awesome.min.css" rel="stylesheet" />
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
         <!--CUSTOM STYLE -->
         <link href="assets/css/style.css" rel="stylesheet" />
         <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -140,9 +141,8 @@
         <!--PARALLAX SECTION TWO -->
         <section id="story-two">
             <article>
-                <span>
-                <h2><i class="glyphicon fa-flask"></i> Goals</h2>
-                <ol>
+                <h2><i class="fa fa-flask"></i> Goals</h2>
+                <ol style="background-color : rgb(0,0,0)">
                     <li>Increase the amount of full nodes on the network.</li>
                     <li>To supply a low cost hardware solution that will encourage users to always participate as a full bitcoin node.</li>
                     <li>To provide a simple and safe bitcoin wallet that mitigates risks associated with running a desktop wallet.</li>
@@ -158,6 +158,7 @@
         </section>
         <div class="container">
             <h2>Solution</h2>
+            <p>A small dedicated device, similar to your internet router.  </p>
             <img src="/assets/img/blockchainbox1small.jpg" alt="Prototype box"/>
         </div>
              
@@ -184,7 +185,7 @@
                     </div>
                     <div class="col-md-4 col-sm-4">
                         <ul class="plan-main">
-                            <li class="plan-name">Pro</li>
+                            <li class="plan-name">Elite</li>
                             <li class="plan-price">$200</li>
                             <li>128GB Storage</li>
                             <li>Hardware RNG</li>
