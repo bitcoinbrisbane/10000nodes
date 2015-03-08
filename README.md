@@ -121,6 +121,12 @@ todo:  add curl instructions. PHP requires curl to call the node.
 cd ~ && sudo rm -rf /var/www/html && sudo git clone -b release https://github.com/bitcoinbrisbane/10000nodes /var/www/html
 ```
 
+###Done
+The daemon should now be ready to start.  Simply type bitcoind
+
+###Todo
+Startup scripts
+
 **Refrences**
 http://elinux.org/Beagleboard:Ubuntu_On_BeagleBone_Black
 https://bitcointalk.org/index.php?topic=304389.0
