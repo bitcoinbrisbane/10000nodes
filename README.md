@@ -102,12 +102,6 @@ rpcuser=bitcoinbrisbane
 rpcpassword=441f5cc0839c6aa669506c734b8d6cadf10db229
 ```
 
-**Notes**
-```
-chmod u+rwx backup
-./backup
-```
-
 ###Install PHP
 ```
 sudo apt-get install php5 libapache2-mod-php5 php5-mcrypt
@@ -120,6 +114,28 @@ todo:  add curl instructions. PHP requires curl to call the node.
 ```
 cd ~ && sudo rm -rf /var/www/html && sudo git clone -b release https://github.com/bitcoinbrisbane/10000nodes /var/www/html
 ```
+
+###Backup script
+Create the following script, then add a cron job
+```
+bitcoin-cli stop
+logger "Stopping bitcoind..."
+sleep 100
+rsync ~/.bitcoin/wallet.dat /media/backup
+rsync -vr /media/external/blocks/index /media/external/backup/blocks/
+sleep 5
+logger "Starting bitcoind..."
+bitcoind
+```
+
+Modify the permissions so it can excute
+```
+chmod u+rwx backup.sh
+./backup.sh
+```
+
+sudo crontab -e
+
 
 ###Startup script
 sudo nano /etc/rc.local
