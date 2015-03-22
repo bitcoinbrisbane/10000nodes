@@ -121,6 +121,46 @@ todo:  add curl instructions. PHP requires curl to call the node.
 cd ~ && sudo rm -rf /var/www/html && sudo git clone -b release https://github.com/bitcoinbrisbane/10000nodes /var/www/html
 ```
 
+###Startup script
+sudo nano /etc/rc.local
+```
+#!/bin/sh -e
+#
+# rc.local
+#
+# This script is executed at the end of each multiuser runlevel.
+# Make sure that the script will "exit 0" on success or any other
+# value on error.
+#
+# In order to enable or disable this script just change the execution
+# bits.
+#
+# By default this script does nothing.
+
+logger "10000 nodes setting time"
+ntpdate 0.pool.ntp.org
+
+logger "10000 nodes adding swap file"
+free
+dd if=/dev/zero of=/var/swap.img bs=1024k count=1000
+mkswap /var/swap.img
+swapon /var/swap.img
+free
+
+logger "10000 nodes moutning drive"
+pmount /dev/sda /media/external
+
+sleep 5
+
+rsync -vr /media/external/backup/blocks/index /media/external/backup/index/
+
+sleep 5
+
+bitcoind
+
+exit 0
+```
+
 ###Done
 The daemon should now be ready to start.  Simply type bitcoind
 
