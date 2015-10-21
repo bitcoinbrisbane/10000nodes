@@ -40,13 +40,20 @@ sudo apt-get install pmount
 sudo apt-get install git
 ```
 
+###Partition drive
+```
+sudo lsblk
+```
+http://askubuntu.com/questions/182446/how-do-i-view-all-available-hdds-partitions
+https://help.ubuntu.com/community/InstallingANewHardDrive
+
 ###Mount drive
 Format the usb flash drive using xfs
 ```
 sudo mkfs.xfs /dev/sda -f
 ```
 
-Find the usb flash drive by using sudo fdisk -l
+Find the usb flash drive by using sudo fdisk -l 
 ```
 sudo mkdir /media/external
 pmount /dev/sda external
